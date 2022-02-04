@@ -1,0 +1,7 @@
+Title: JIRA-12345 - Check there is QA article in wikipedia
+Scenario: |
+  open url "https://en.wikipedia.org/"
+  enter "QA" in "Search Wikipedia"
+  click "go"
+  check that page contains "Quality assurance"
+  check that page contains "a process or set of processes used to measure and assure the quality of a product"
